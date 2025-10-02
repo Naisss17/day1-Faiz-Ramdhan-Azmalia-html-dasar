@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naisss</title>
+    <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: fit-content;
+        margin: 10%;
+        background-color: black;
+    }
+
+    .ukuran-profil{
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        align-items: center;
+    }
+    
+    .ukuran-logo{
+        width: 100px;
+        height: 100px;
+        align-items: center;
+    }
+    .ukuran-logo2{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        align-items: center;
+    }
+
+    h1,h2,h3,h4,h5,h6,p,table,tr,td,li,ul{
+        color: white;
+        justify-content: center;
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        max-width: 600px;
+        text-align: justify;
+    }
+
+    a{
+        color: grey;
+    }
+
+    .box{
+        background: rgb(1, 8, 38);
+        border: 1px solid;
+        border-radius: 20px;
+        padding: 2rem;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .kesamping{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    </style>
+</head>
+<body>
+    <img src="/profile.jpeg" alt="Coba minta pap aja" class="ukuran-profil"> 
+    <Section>
+    <h1>Faiz Ramdhan Azmalia</h1>
+    <p>Pada saat ini saya seorang mahasiswa disalahsatu universitas dibandung, disela waktu kuliah tersebut saya mengisi waktu luang dengan bekerja disalah satu perusahaan yang bernama <a href="https://torch.id/" target="_blank">torch.id</a></p>
+
+        <h2>Social Media</h2>
+
+       <div class="kesamping">
+        <div class="box" onclick="bukatabbaru('Instagram')">
+            <h3><img src="instagram.png" alt="logo instagram" class="ukuran-logo"></h3>
+            <h4>@faizmalia</h4>
+        </div>
+        <div class="box" onclick="bukatabbaru('X')">
+            <h3><img src="x.png" alt="logo instagram" class="ukuran-logo"></h3>
+            <h4>@Naisss00</h4>
+        </div>
+        </Section>
+
+        <h2>Hobbies</h2>
+        <ul>
+            <li><img src="https://png.pngtree.com/png-vector/20190530/ourmid/pngtree-kick-ball-logo-icon-vector-png-image_1127541.jpg" alt="" class="ukuran-logo2"></li>
+            <li><img src="data:image/jpeg;base64,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" alt=""class="ukuran-logo2"></li>
+        </ul>
+        <script>
+            const apps = {
+                'Instagram': 'https://www.instagram.com/faizmalia/',
+                'X': 'https://x.com/Naisss00',
+            };
+            function bukatabbaru (appId){
+                const url = apps [appId]
+                if (url) {
+                    window.open(url, '_blank','noopener,noreferrer')
+                }
+            }
+        </script>
+        <section>
+            <h5>Detail Pribadi</h5>
+            <a href="data-diri.html"> Lihat detail data diri</a>
+            <h6>Terimakasih</h6>
+        </section>
+</body>
+</html>
